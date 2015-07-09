@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="200dp"
+    >
+
+
+    <com.fmsirvent.ParallaxEverywhere.PEWImageView
+        android:id="@+id/img_movie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+             />
+    <TextView
+        android:id="@+id/title_movie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo de la pelicula"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#32000000"
+        android:padding="15dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#fff"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background1"/>
+
+</RelativeLayout>
